@@ -1,0 +1,20 @@
+2023-07-11 19:43:39,695.penguins_server.INFO =============================================================
+2023-07-11 19:43:39,710.penguins_server.INFO Today is 2023-07-11 at 07:43 PM
+2023-07-11 19:43:39,714.penguins_server.INFO This file is running on: nt Windows 10
+2023-07-11 19:43:39,717.penguins_server.INFO The Python version is: 3.11.3
+2023-07-11 19:43:39,724.penguins_server.INFO The active environment path is:   C:\Users\Mikayla Rietgraf\NWMS Masters\Continuous Intelligence\cintel-03-data\.venv
+2023-07-11 19:43:39,725.penguins_server.INFO The current working directory is: C:\Users\Mikayla Rietgraf\NWMS Masters\Continuous Intelligence\cintel-03-data
+2023-07-11 19:43:39,727.penguins_server.INFO =============================================================
+2023-07-11 19:47:20,038.penguins_server.DEBUG filter message: Showing 344 records
+2023-07-11 19:47:20,038.penguins_server.DEBUG Triggered penguin_filter_record_count_string
+2023-07-11 19:47:20,038.penguins_server.DEBUG Triggered penguins_filtered_table
+2023-07-11 19:47:25,215.penguins_server.DEBUG Triggered penguin_filter_record_count_string
+2023-07-11 19:47:25,218.penguins_server.DEBUG Triggered penguins_filtered_table
+2023-07-11 19:47:25,670.penguins_server.DEBUG Triggered penguin_filter_record_count_string
+2023-07-11 19:47:25,670.penguins_server.DEBUG Triggered penguins_filtered_table
+2023-07-11 19:47:26,165.penguins_server.DEBUG Triggered penguin_filter_record_count_string
+2023-07-11 19:47:26,171.penguins_server.DEBUG Triggered penguins_filtered_table
+2023-07-11 19:47:28,118.penguins_server.DEBUG Triggered penguin_filter_record_count_string
+2023-07-11 19:47:28,120.penguins_server.DEBUG Triggered penguins_filtered_table
+2023-07-11 19:47:30,524.penguins_server.DEBUG Triggered penguin_filter_record_count_string
+2023-07-11 19:47:30,531.penguins_server.DEBUG Triggered penguins_filtered_table
