@@ -74,12 +74,12 @@ app_ui = ui.page_navbar(
             get_penguins_outputs(),
         ),
     ),
-    ui.nav(ui.a("About", href="https://github.com/denisecase")),
-    ui.nav(ui.a("GitHub", href="https://github.com/denisecase/cintel-03-data")),
-    ui.nav(ui.a("App", href="https://denisecase.shinyapps.io/cintel-03-data/")),
+    ui.nav(ui.a("About", href="https://github.com/s566248")),
+    ui.nav(ui.a("GitHub", href="https://github.com/s566248/cintel-03-data")),
+    ui.nav(ui.a("App", href="https://s566248.shinyapps.io/cintel-03-data/")),
     ui.nav(ui.a("Examples", href="https://shinylive.io/py/examples/")),
     ui.nav(ui.a("Themes", href="https://bootswatch.com/")),
-    title=ui.h1("Case Dashboard"),
+    title=ui.h1("Tyler Stanton Dashboard"),
 )
 
 
