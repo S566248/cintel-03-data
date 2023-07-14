@@ -16,9 +16,16 @@ def get_mtcars_inputs():
         ui.input_slider(
             "MTCARS_MPG_RANGE",
             "Miles Per Gallon (MPG)",
+            min=4,
+            max=8,
+            value=[4, 8],
+        ),
+        ui.input_slider2(
+            "MTCARS_CYL_RANGE",
+            "Number of Cylinders (CYL)",
             min=10,
             max=35,
-            value=[10, 35],
+            value=[10, 35,],
         ),
         ui.tags.hr(),
         ui.tags.section(
