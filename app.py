@@ -19,9 +19,31 @@ from penguins_server import get_penguins_server_functions
 from penguins_ui_inputs import get_penguins_inputs
 from penguins_ui_outputs import get_penguins_outputs
 
+import pathlib
+import pandas as pd
+import seaborn as sns
+
 from util_logger import setup_logger
 
 logger, logname = setup_logger(__name__)
+
+# Get a path object representing this data folder.
+data_folder = pathlib.Path(__file__).parent
+
+penguins_df = sns.load_dataset("penguins")
+penguins_df.to_excel(data_folder.joinpath("penguins.xlsx"))
+penguins_df.to_csv(data_folder.joinpath("penguins.csv"))
+
+flights_df = sns.load_dataset("flights")
+flights_df.to_excel(data_folder.joinpath("flights.xlsx"))
+flights_df.to_csv(data_folder.joinpath("flights.csv"))
+
+mtcars_df = pd.read_csv(data_folder.joinpath("mtcars.csv"))
+mtcars_df.to_excel(data_folder.joinpath("mtcars.xlsx"))
+
+iris_df = sns.load_dataset("iris")
+iris_df.to_excel(data_folder.joinpath("iris.xlsx"))
+iris_df.to_csv(data_folder.joinpath("irs.csv"))
 
 app_ui = ui.page_navbar(
     shinyswatch.theme.lumen(),
