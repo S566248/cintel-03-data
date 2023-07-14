@@ -75,4 +75,6 @@ Before pushing to GitHub, login to [shinyapps.io](https://www.shinyapps.io/) and
 - First archive the app.
 - Then delete the archived app.
 
+
+##  shiny run --reload app.py
 ##  rsconnect deploy shiny . --name s566248 --title cintel-03-data
