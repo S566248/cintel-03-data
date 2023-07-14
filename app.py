@@ -98,7 +98,7 @@ app_ui = ui.page_navbar(
     ui.nav(ui.a("App", href="https://s566248.shinyapps.io/cintel-03-data/")),
     ui.nav(ui.a("Examples", href="https://shinylive.io/py/examples/")),
     ui.nav(ui.a("Themes", href="https://bootswatch.com/")),
-    title=ui.h1("Tyler Stanton Dashboard"),
+    title=ui.h1("Tyler Stanton's Dashboard"),
 )
 
 
