@@ -20,6 +20,13 @@ def get_mtcars_inputs():
             max=35,
             value=[10, 35],
         ),
+        ui.input_slider_2(
+            "MTCARS_CYL_RANGE",
+            "Number of cylinders (CYL)",
+            min=4,
+            max=8,
+            value=[4, 8],
+        ),
         ui.tags.hr(),
         ui.tags.section(
             ui.h3("MT Cars Table"),
